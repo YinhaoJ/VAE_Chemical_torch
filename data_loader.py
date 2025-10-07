@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import Dataset
 from torch.nn.utils.rnn import pad_sequence
-import pandas as
+import pandas as pd
 import requests
 import os
 from tqdm import tqdm
@@ -69,7 +69,7 @@ def get_data_and_vocab():
              print("ERROR, something went wrong during download")
         print("Download complete.")
    
-    df = pd.read_csv(csv_path)
+    df = pd.read_csv(filename)
     df["smiles"] = df["smiles"].apply(lambda s: s.replace("\n", ""))
     smiles_list = df['smiles'].tolist()
 
