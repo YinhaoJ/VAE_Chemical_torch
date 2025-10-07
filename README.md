@@ -15,8 +15,8 @@ The model learns a continuous latent space representation of molecules from thei
 
 1.  Clone the repository:
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
+    git clone https://github.com/YinhaoJ/VAE_Chemical_torch.git
+    cd VAE_Chemical_torch
     ```
 
 2.  Install the required dependencies:

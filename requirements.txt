@@ -2,5 +2,5 @@ torch
 pandas
 numpy
 tqdm
-rdkit-pypi
+rdkit
 requests
